@@ -1,0 +1,45 @@
+name = Fidanzata
+description = Theme for fidanzata.by 
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/grid.css
+stylesheets[all][] = css/swiper.css
+stylesheets[all][] = css/views.css
+stylesheets[all][] = css/fontawesome.css
+stylesheets[all][] = css/mobilepanel.css
+stylesheets[all][] = css/responsive.css
+
+scripts[] = js/imagesloaded.js
+scripts[] = js/tweenmax.js
+scripts[] = js/smoothscroll.js
+scripts[] = js/mobilepanel.js
+scripts[] = js/swiper.js
+scripts[] = js/main.js
+
+regions[header]         = Header
+regions[main_menu]      = Main Menu
+regions[highlighted]    = Highlighted
+regions[breadcrumb]     = Breadcrumb
+regions[content]        = Content
+regions[content_right]  = Content Right
+regions[content_bottom] = Content Bottom
+regions[footer]         = Footer
+regions[mobile_panel]   = Mobile Panel
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; Information
+version = "1.0"
+core = "7.x"
+project = "drupal"
+

@@ -1,0 +1,218 @@
+
+/*-------------------------------------------*
+/* < 1200px
+/*-------------------------------------------*/
+
+@media all and (max-width: 1199px) {
+	
+.number,
+#mobile-panel .social-icon {
+    font-size: 1.3rem;
+}
+	
+#block-system-main-menu ul.menu a {
+    font-size: 1rem;
+}
+
+.masonry-item {
+    width: 33.333333%;
+}
+
+}
+
+/*-------------------------------------------*
+/* < 992px
+/*-------------------------------------------*/
+
+@media all and (max-width: 991px) {
+
+body {
+    font-size: 16px;
+    padding: 69px 0 0 0;
+}
+
+#header,
+#header.sticky {
+    padding: 10px 0;
+    background-color: #f2f2f2;
+}
+
+#slogan,
+#main-menu,
+#block-block-3 {
+    display: none;
+}
+	
+#header .block {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto; 
+    max-width: none;
+}
+
+#header #logo,
+#header.sticky #logo {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+.block-title {
+    font-size: 1.2rem;
+}
+
+.region-footer {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.region-footer .block {
+    padding: 5px 0;
+}
+
+.number a {
+	text-decoration: underline;
+}
+
+.masonry-item {
+    width: 50%;
+}
+
+.field-name-field-dress-gallery .field-item, 
+.field-name-field-page-gallery .field-item {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+input.form-text,
+textarea.form-textarea,
+select.form-select {
+    width: 100%;
+}
+
+}
+
+/*-------------------------------------------*
+/* < 768px
+/*-------------------------------------------*/
+
+@media (max-width: 767px) {	
+
+.collection-col-2,
+.collection-col-3,
+.overlay-grey,
+.overlay-white {
+    display: none;
+}
+
+.social-icon {
+    margin: 0 5px;
+}
+
+.preloader {
+    visibility: hidden;
+}
+
+body.has-content-right #content-main,
+#content-right {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: none;
+    padding: 0;
+}
+
+#main-menu,
+#highlighted,
+#content-main .block,
+#content-right .block {
+    margin: 0 0 20px 0;
+}
+
+#footer, 
+#content-bottom {
+    margin: 20px 0 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+.collection__name,
+.collection__price,
+.views-field-field-collection-price .field-content {
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+}
+
+.block-title {
+    margin: 0 0 20px 0;
+}
+
+.masonry-item {
+    width: 100%;
+}
+
+.collection-col {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: none;
+}
+
+.collection__title,
+.dress__title {
+    padding: 10px;
+}
+
+.dress__name,
+.dress__price {
+    font-size: 1rem;
+}
+
+#footer {
+    padding: 10px 0;
+}
+
+/*-------------------------------------------*
+/* < 375px
+/*-------------------------------------------*/
+
+@media (max-width: 375px) {	
+
+body {
+    padding: 63px 0 0 0;
+}
+  
+#header,
+#header #logo, 
+#header.sticky #logo {
+        font-size: 1.2rem;
+}
+
+}
+
+/*-------------------------------------------*
+/* 320px
+/*-------------------------------------------*/
+
+@media (max-width: 320px) {	
+
+.number {
+    font-size: 1rem;
+}
+
+body {
+    padding: 59px 0 0 0;
+}
+    
+#header,
+#header #logo, 
+#header.sticky #logo {
+    font-size: 1rem;
+}
+
+}

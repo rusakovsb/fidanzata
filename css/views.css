@@ -1,0 +1,218 @@
+.view img {	
+    display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*-------------------------------------------*
+/* Collections
+/*-------------------------------------------*/
+
+.collection {
+    margin: 0 0 20px 0; 
+}
+
+.collection:last-child {
+    margin: 0; 
+}
+
+.collection a {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.collection-col {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.collection__banner {
+    background-size: cover;
+}
+
+.collection__title,
+.dress__title {
+    display: -ms-flexbox;
+    display: flex;
+	-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;    
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+	position: absolute;
+	width: 100%;    
+    bottom: 0;
+    left: 0; 
+    z-index: 10;
+}
+
+.collection__name {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.collection__price {
+    font-size: 1.4rem;
+}
+
+.collection__vertical-banner {
+    padding-top: 150%;
+}
+
+.collection__horizontal-banner-1 {
+    padding-top: 50%;
+}
+
+.collection__square-banner {
+    padding-top: 100%;
+}
+
+.collection__horizontal-banner-2 {
+    padding-top: 50%;
+}
+
+.collection__horizontal-banner-3 {
+    padding-top: 100%;
+}
+
+.collection-col,
+.dress {
+    position: relative;
+}
+
+.dress {
+    display: block;
+}
+
+.dress__name {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.dress__price {
+    font-size: 1.2rem;
+}
+
+.overlay-grey { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: #ececec;
+    will-change: height;
+}
+
+.overlay-white { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    background: #fff;
+    will-change: height;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.preloader { 
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin: 0 0 0 -20px;
+    width: 40px;
+    height: 40px;
+    z-index: 102;
+    background-image: url(../images/preloader.svg);
+    background-size: contain;
+    animation: spin 0.75s infinite linear;
+}
+
+/*-------------------------------------------*
+/* Dress details
+/*-------------------------------------------*/
+
+.view-dress-details .views-field {
+	margin: 0 0 20px 0;
+}
+
+.views-field-field-dress-collection .field-content {
+    text-transform: uppercase;
+}
+
+.views-field-field-collection-price .field-content {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+/*-------------------------------------------*
+/* Page gallery
+/*-------------------------------------------*/
+
+.view-page-gallery .view-content {
+	margin: 0 -10px;
+}
+
+.masonry-item {
+    width: 20%;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0 10px 20px 10px;
+}
+
+/*-------------------------------------------*
+/* Swiper
+/*-------------------------------------------*/
+
+.swiper-buttons {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;   
+    width: auto;
+    height: auto;
+    margin: 0 15px;
+    color: #424242;
+}
+
+.swiper-button-prev:after, 
+.swiper-button-next:after {
+	display: none;
+}
+
+/*-------------------------------------------*
+/* Photoswipe
+/*-------------------------------------------*/
+
+.pswp__bg {
+    background: rgba(0,0,0,0.9);
+}
+
+
+
+
+
