@@ -7,19 +7,19 @@
     display: flex;
 	-ms-flex-wrap: wrap;
     flex-wrap: wrap;	
-}
-
-.grid-centered .view-content {
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.grid-with-gap .view-content {
 	margin: 0 -10px;
 }
 
-.grid-with-gap .grid-item {
+.grid-item {
 	padding: 0 10px 20px 10px;
+}
+
+.grid.no-gaps .view-content {
+	margin: 0;
+}
+
+.grid.no-gaps .grid-item {
+	padding: 0;
 }
 
 /* Extra large */ 
